@@ -29,6 +29,60 @@ public mop(String name, double legCount, int eyeCount, boolean hasNose, int arms
 	this. armCount = arms;
 	
 }
+
+public String getName()
+{
+	return name;
+}
+
+public double getlegCount()
+{
+	return legCount;
+}
+
+public int geteyeCount()
+{
+	return eyeCount;
+}
+
+public boolean gethasNoses()
+{
+	return hasNoses;
+}
+
+public int getarmCount()
+{
+	return armCount;
+}
+//-----------------------------------------------------------	
+
+//------------Setter-----------------------------------------
+public void setName(String name)
+{
+	this.name = name;
+}
+
+public void setlegCount(Double legCount)
+{
+	this.legCount = legCount;
+}
+
+public void seteyeCount(int eyeCount)
+{
+	this.eyeCount = eyeCount;
+}
+
+public void sethasNoses(boolean hasNoses)
+{
+	this.hasNoses = hasNoses;
+}
+
+public void setarmCount(int armCount)
+{
+	this.armCount = armCount;
+}
+
+
 public String toString()
 	
 	{
